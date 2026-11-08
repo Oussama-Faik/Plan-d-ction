@@ -1,0 +1,64 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 40px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 30px;
+    color: #555;
+}
+
+.books-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    width: 250px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: left;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h3 {
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+.card p {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.card .price {
+    color: green;
+    font-weight: bold;
+}
